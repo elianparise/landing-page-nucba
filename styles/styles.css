@@ -1,0 +1,29 @@
+body {
+    padding: 30px;
+    background-color: #d9d9d9;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+
