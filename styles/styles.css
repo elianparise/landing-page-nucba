@@ -1,21 +1,24 @@
 body {
-    padding: 30px;
-    background-color: #d9d9d9;
-    flex-direction: column;
-}
-nav {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
     align-items: center;
     background-color: white;
     justify-content: space-between;
     padding: 10px;
 }
 
-.header-links {
+.navbar-list {
     display: flex;
     gap: 10px;
-    margin: 10px;
+}
+
+li {
+    list-style-type: none;
 }
 
 a {
