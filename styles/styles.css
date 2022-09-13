@@ -3,13 +3,15 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: purple;
     justify-content: space-between;
     padding: 10px;
+
 }
 
 .navbar-list {
