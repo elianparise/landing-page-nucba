@@ -73,7 +73,9 @@ main {
     align-items: center;
     justify-content: center;
     max-width: 1200px;
-    margin: 30px;
+    margin-top: 80px;
+    padding: 30px;
+
 }
 
 .hero-info {
@@ -154,7 +156,8 @@ li a:hover {
     background-color: var(--secondary-color) ;
     font-weight: 500;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    padding: 150px 0 150px 0;
     font-size: 2em;
     justify-content: center;
 }
