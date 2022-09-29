@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        text-align: center;
+        align-items: center;
+    }
+
+    .action {
+        justify-content: center;
+    }
+
+    .hero-info a {
+        min-width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    #hero-img {
+        justify-content: center;
+    }
+}
