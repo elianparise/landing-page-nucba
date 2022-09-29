@@ -114,8 +114,27 @@ main {
     cursor: pointer;
     font-weight: 700;
     width: 30%;
+    transition-property: all;
+    transition-duration: 1s;
 }
 
+.hero-info a:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(1.2,1.2);
+    background-color: var(--secondary-color);
+}
+
+@keyframes scaleA {
+    0% {
+        transform: scale(1,1);
+    }
+
+    100% {
+        transform: scale(1.2,1.2);
+        background-color: var(--secondary-color);
+    }
+}
 
 
 #hero-img {   
@@ -190,6 +209,14 @@ li a:hover {
     border-radius: 1rem;
     width: 30%;
     margin-top: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.benefit-card:hover {
+    transition-duration: 1s;
+    transition-property: all;
+    transform: scale(1.1,1.1);
 }
 
 .benefit-title img {
