@@ -38,11 +38,26 @@ header {
     right: 0;
     height: 80px;
     width: 100%;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
 }
 
 .navbar-list {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 li {
@@ -82,7 +97,7 @@ main {
     display: flex;
     flex-direction: column;
     align-content: center;
-    max-width: 50%;
+    max-width: 70%;
     max-height: 100%;
     justify-content: center;
 }
