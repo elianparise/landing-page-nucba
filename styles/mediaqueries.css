@@ -32,14 +32,77 @@
     }
 }
 
+
+@media (max-width: 798px) {
+    .benefits {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    .benefit-card {
+        width: 45%;
+    }
+
+    
+    .contact-text {
+        /* border: 5px solid red; */
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+        justify-content: center;
+    }
+
+    .contact-text h2 {
+        display: block;
+        /* border: 5px solid green; */
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline;
+        margin: 0;
+        margin-top: 1rem;
+
+    }
+
+    .contact-info {
+        /* border: 5px solid green; */
+        justify-content: space-around;
+        padding-top: 1.3rem;
+    }
+
+    .card-container {
+        /* border: 5px solid blue; */
+        justify-content: space-around;
+    }
+
+    .info-card {
+        /* border: 5px solid yellow; */
+        font-size: 22px;
+    }
+
+    .social-media {
+        /* border: 5px solid blue; */
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .social-media img {
+        /* border: 4px solid yellow; */
+        width: 3rem;
+        margin-bottom: 1rem;
+    }
+    .contact-img {
+        display: none;
+    }
+}
+
 @media (max-width: 576px) {
     .navbar-list {
         background-color: var(--accent-color);
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh);
         position: absolute;
         left: 0;
-        top: 80px;
+        top: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -56,5 +119,66 @@
         transform: translateX(0%);
         transition: all 0.4s ease-in;
 
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .benefit-card {
+        width: 80%;
+    }
+
+    .contact-info {
+
+    }
+
+    .card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.contact-text {
+        /* border: 12px solid red; */
+        padding: 0;
+    }
+
+    .contact-text h2{
+        /* border: 12px solid red; */
+        text-decoration: none;
+    }
+
+    .contact-info {
+        /* border: 12px solid blue;     */
+    }
+    
+    .card-container {
+        /* border: 12px solid green; */
+    }
+
+    .info-card {
+        /* border: 12px solid yellow; */
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .info-card h3 {
+        text-decoration: underline;
+    }
+
+    .card-line {
+        /* border: 4px solid grey; */
+        justify-content: center;
+    }
+
+    .social-media {
+        /* border: 12px solid purple; */
+
+    }
+
+    .social-media img {
     }
 }
